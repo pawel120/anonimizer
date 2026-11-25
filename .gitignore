@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+*.egg-info/
+dist/
+build/
+
+# Node
+node_modules/
+.next/
+
+# IDE / OS
+.DS_Store
+.idea/
+.vscode/
+
+# Dane wejściowe/wyjściowe – nigdy nie commitujemy dokumentów
+input/
+output/
+*.docx
+*.doc
+*.pdf
+
+# Ustawienia użytkownika (nadpisują default_settings.json)
+config/settings.json
+
+# Testy
+.pytest_cache/
+
+# Konfiguracja lokalna Claude Code
+.claude/
